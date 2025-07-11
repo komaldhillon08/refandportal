@@ -35,7 +35,7 @@ import { useState, useRef } from "react";
 export default function Player() {
   const [enterRedPlayer, setEnterRedPlayer] = useState("");
   const playerName = useRef();
-  console.log("testPlayerName", playerName);
+  // console.log("testPlayerName", playerName);
 
 
   function handleChick() {
